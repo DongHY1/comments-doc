@@ -41,6 +41,7 @@ export default function App() {
                 Setup GitHub OAuth with supabase
               </a>
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/7.png" />
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/16.png"></img>
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/8.png" />
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/9.png" />
             </div>
@@ -53,22 +54,22 @@ export default function App() {
               <h1>set environment</h1>
               <Snippet>mv .env.example .env</Snippet>
               <span>set the Project URL as VITE_SUPABASE_URL</span>
-              <img src="https://comments-file.daviddong.me/2.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/2.png"></img>
               <span>set the anon Project API Keys as VITE_SUPABASE_ANON_KEY</span>
-              <img src="https://comments-file.daviddong.me/1.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/1.png"></img>
             </div>
 
             <div className="flex w-full  flex-col items-start justify-start space-y-2">
               <h1 className="text-2xl">3. Migrate database </h1>
               <Snippet>npx supabase link --project-ref URL</Snippet>
-              <img src="https://comments-file.daviddong.me/13.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/13.png"></img>
               <Snippet>npx supabase db push</Snippet>
               <span>see your dashboard</span>
-              <img src="https://comments-file.daviddong.me/3.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/3.png"></img>
 
               <Snippet>pnpm run build</Snippet>
               <span>import the output js file to your html file</span>
-              <img src="https://comments-file.daviddong.me/15.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/15.png"></img>
               <span>Done!</span>
             </div>
           </div>
