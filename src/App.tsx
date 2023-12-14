@@ -54,22 +54,27 @@ export default function App() {
               <h1>set environment</h1>
               <Snippet>mv .env.example .env</Snippet>
               <span>set the Project URL as VITE_SUPABASE_URL</span>
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/2.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/2.png" />
               <span>set the anon Project API Keys as VITE_SUPABASE_ANON_KEY</span>
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/1.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/1.png" />
             </div>
 
             <div className="flex w-full  flex-col items-start justify-start space-y-2">
               <h1 className="text-2xl">3. Migrate database </h1>
               <Snippet>npx supabase link --project-ref URL</Snippet>
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/13.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/13.png" />
               <Snippet>npx supabase db push</Snippet>
               <span>see your dashboard</span>
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/3.png"></img>
-
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/3.png" />
+              <span>add a database trigger</span>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/17.png" />
+              <Snippet>
+                CREATE TRIGGER trigger_sync_profiles AFTER INSERT OR UPDATE ON auth.users FOR EACH ROW EXECUTE FUNCTION
+                public.sync_profiles();
+              </Snippet>
               <Snippet>pnpm run build</Snippet>
               <span>import the output js file to your html file</span>
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/15.png"></img>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/15.png" />
               <span>Done!</span>
             </div>
           </div>
