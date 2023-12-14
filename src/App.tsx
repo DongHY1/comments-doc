@@ -7,7 +7,9 @@ export default function App() {
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">Comments</h1>
             <p className="py-6">An open-source, easy-to-use comment system, similar to Vercel Comments</p>
-            <button className="btn btn-primary">GitHub</button>
+            <a className="btn btn-primary" href="https://github.com/DongHY1/comments">
+              GitHub
+            </a>
           </div>
 
           <div className="flex flex-col items-start justify-start space-y-4">
