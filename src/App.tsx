@@ -41,9 +41,9 @@ export default function App() {
                 Setup GitHub OAuth with supabase
               </a>
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/7.png" />
-              <img className="rounded-2xl" src="https://comments-file.daviddong.me/16.png"></img>
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/8.png" />
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/9.png" />
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/16.png" />
             </div>
 
             <div className="flex flex-col items-start space-y-2 ">
