@@ -76,6 +76,7 @@ export default function App() {
               <span>import the output js file to your html file</span>
               <img className="rounded-2xl" src="https://comments-file.daviddong.me/15.png" />
               <span>Done!</span>
+              <img className="rounded-2xl" src="https://comments-file.daviddong.me/18.png" />
             </div>
           </div>
         </div>
